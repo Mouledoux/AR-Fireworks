@@ -27,6 +27,9 @@ public class FireworkManager : MonoBehaviour
 	
 	void Update ()
     {
+        if (Input.GetKeyUp(KeyCode.Escape))
+            Application.Quit();
+
         UpdateViaAudio();
 	}
     ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -34,7 +34,7 @@ public class SpectrumFireworks : MonoBehaviour
 	
 	void Update ()
     {
-        if (transform.parent.transform.localScale.y > 2f && !fireWorks.isPlaying)
+        if (transform.parent.transform.localScale.y > 2.5f && !fireWorks.isPlaying)
         {
             if (fireWorks.particleCount <= 0)
             {
